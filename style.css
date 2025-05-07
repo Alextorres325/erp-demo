@@ -1,0 +1,57 @@
+/* style.css */
+
+/* Importar la fuente Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* Aplicar la fuente Montserrat a todo el cuerpo */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cambiar color de fondo del sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #361088 !important; /* Cambia esto por el color que prefieras */
+    color: white !important;
+}
+
+/* Cambiar color del texto del menú */
+section[data-testid="stSidebar"] p {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Centrar todo el contenido principal */
+.css-18e3th9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #6656eb;
+}
+
+/* Estilo para el logo */
+.login-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.stButton>button {
+    background-color: #35157d;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/* Título principal */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
